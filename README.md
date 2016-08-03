@@ -14,7 +14,7 @@ Go to your command line and enter `git clone https://github.com/tylambe/reunders
 
 #### Download as a .zip file
 ======
-Scroll up on this page to the green 'Clone or download' button, click 'Download as Zip', and find the folder titled 'reunderscore' wherever your browser usually downloads files.
+Scroll up on this page to the green 'Clone or download' button, click 'Download as Zip', and find the folder titled 'reunderscore' wherever your browser usually downloads files. Unzip and you will have access to the project folder.
 
 ## Usage
 ======
