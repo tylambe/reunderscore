@@ -246,10 +246,15 @@
     describe('delay', function() {
       var callback;
       var clock;
+
       beforeEach(function() {
         callback = sinon.spy();
         clock = sinon.useFakeTimers();
-      })
+      });
+
+      afterEach(function() {
+        clock.restore();
+      });
 
       it('should only execute the function after the specified wait time', function() {
         _.delay(callback, 100);
